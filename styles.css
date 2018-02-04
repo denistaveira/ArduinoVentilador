@@ -1,0 +1,25 @@
+root {
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    position: relative;
+    margin-right: auto;
+    margin-top: 0;
+    margin-left: auto;
+    color: black;
+    text-align: center;
+}
+
+button {
+    position: relative;
+    width: 20%;
+    height: 50px;
+    font-family: "Arial Narrow";
+    font-size: 20px;
+}
