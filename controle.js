@@ -1,14 +1,18 @@
 var geral = document.getElementById('estado_geral').innerHTML
-if (geral === 0) {
+if (geral === '0') {
+    document.getElementById('estado_geral').innerHTML = '1';
     document.getElementById('botao_geral').innerHTML = '<a href=\'/?desligar_geral\' class=\'botao\'><button>Desliga_geral</button></a>';
 } else {
+    document.getElementById('estado_geral').innerHTML = '0';
     document.getElementById('botao_geral').innerHTML = '<a href=\'/?ligar_geral\' class=\'botao\'><button>Liga_geral</button></a>';
 }
 
 var vent = document.getElementById('estado_vent').innerHTML
-if (vent === 0) {
+if (vent === '0') {
+    document.getElementById('estado_vent').innerHTML = '1';
     document.getElementById('botao_vent').innerHTML = '<a href=\'/?desligar_vent\' class=\'botao\'><button>Desliga_vent</button></a>';
 } else {
+    document.getElementById('estado_vent').innerHTML = '0';
     document.getElementById('botao_vent').innerHTML = '<a href=\'/?ligar_vent\' class=\'botao\'><button>Liga_vent</button></a>';
 }
 
