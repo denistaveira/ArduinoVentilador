@@ -1,11 +1,11 @@
-var lamp = document.getElementById('estado_lamp').innerHTML
-if (lamp === '0') {
-  document.getElementById('estado_lamp').innerHTML = '1';
-  document.getElementById('botao_lamp').innerHTML = '<a href=\'/?desligar_lamp\' class=\'botao\'><button>Desliga_lamp</button></a>';
-} else {
-  document.getElementById('estado_lamp').innerHTML = '0';
-  document.getElementById('botao_lamp').innerHTML = '<a href=\'/?ligar_lamp\' class=\'botao\'><button>Liga_lamp</button></a>';
-}
+// var lamp = document.getElementById('estado_lamp').innerHTML
+// if (lamp === '0') {
+//   document.getElementById('estado_lamp').innerHTML = '1';
+//   document.getElementById('botao_lamp').innerHTML = '<a href=\'/?desligar_lamp\' class=\'botao\'><button>Desliga_lamp</button></a>';
+// } else {
+//   document.getElementById('estado_lamp').innerHTML = '0';
+//   document.getElementById('botao_lamp').innerHTML = '<a href=\'/?ligar_lamp\' class=\'botao\'><button>Liga_lamp</button></a>';
+// }
 
 var geral = document.getElementById('estado_geral').innerHTML
 if (geral === '0') {
